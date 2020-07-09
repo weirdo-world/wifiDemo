@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="wifi:jar">
+    <output-path>D:/wifi/JAR/wifi</output-path>
+    <root id="archive" name="javaDemo.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:/wifi/JAR/wifi/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="wifiDemo" />
+    </root>
+  </artifact>
+</component>
