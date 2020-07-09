@@ -11,7 +11,7 @@ public class StringUtils {
      * @return 字符串
      */
     public static String str2HexStr(String str) {
-        System.out.println("第五步");
+//        System.out.println("第五步");
         char[] chars = "0123456789ABCDEF".toCharArray();
         StringBuilder sb = new StringBuilder("");
         byte[] bs = str.getBytes();

@@ -34,10 +34,10 @@ public class WifiMain {
             String pwd;
             int count=1;
             while ((pwd=br.readLine())!=null){
-                System.out.println("第"+count+"次连接，"+"连接名称为："+name+" 密码为："+pwd);
+//                System.out.println("第"+count+"次连接，"+"连接名称为："+name+" 密码为："+pwd);
                 // 连接WiFi
                 Boolean b = CmdUtils.connectWifi(name, pwd);
-                System.out.println("第七步");
+//                System.out.println("第七步");
                 if (b) {
                     System.out.println("连接成功：名称=" + name + "密码=" + pwd);
                     return;
