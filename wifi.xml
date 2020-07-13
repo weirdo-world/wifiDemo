@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
-	<name>SZNEWNET</name>
+	<name>XXKJ2020</name>
 	<SSIDConfig>
 		<SSID>
-			<hex>535A4E45574E4554</hex>
-			<name>SZNEWNET</name>
+			<hex>58584B4A32303230</hex>
+			<name>XXKJ2020</name>
 		</SSID>
 	</SSIDConfig>
 	<connectionType>ESS</connectionType>
